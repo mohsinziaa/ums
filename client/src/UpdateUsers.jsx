@@ -17,6 +17,7 @@ function UpdateUsers() {
         setName(res.data.name || "");
         setEmail(res.data.email || "");
         setAge(res.data.age || "");
+        console.log("Qatri");
         setLoading(false);
       })
       .catch((err) => {
