@@ -1,6 +1,6 @@
 # User Management System
 
-This is a simple **User Management System** built with **React, Express, and MongoDB**. The application allows users to **Create, Read, Update, and Delete (CRUD)** users in a database.
+This is a simple **User Management System** built with **React (Vite), Express, and MongoDB**. The application allows users to **Create, Read, Update, and Delete (CRUD)** users in a database.
 
 ## Features
 
@@ -21,8 +21,8 @@ This is a simple **User Management System** built with **React, Express, and Mon
 ### 1️⃣ Clone the Repository
 
 ```sh
-git clone https://github.com/your-username/user-management-system.git
-cd user-management-system
+git clone https://github.com/mohsinziaa/ums.git
+cd ums
 ```
 
 ### 2️⃣ Install Dependencies
@@ -54,7 +54,7 @@ npm start
 
 ```sh
 cd client
-npm start
+npm run dev
 ```
 
 The application will run at **http://localhost:3000/**.
@@ -62,7 +62,7 @@ The application will run at **http://localhost:3000/**.
 ## Project Structure
 
 ```
-user-management-system/
+ums/
 │── server/                 # Backend (Express + MongoDB)
 │   ├── models/             # Mongoose models
 │   ├── routes/             # API routes
@@ -76,7 +76,6 @@ user-management-system/
 │   │   ├── index.js        # Entry point
 │
 │── README.md               # Project documentation
-│── package.json            # Dependencies and scripts
 ```
 
 ## API Endpoints
@@ -98,8 +97,5 @@ user-management-system/
 ## Author
 
 👤 **Mohsin Zia**  
-🔗 [Your GitHub](https://github.com/mohsinziaa)
+🔗 [Github](https://github.com/mohsinziaa)
 
----
-
-Enjoy coding! 🚀
